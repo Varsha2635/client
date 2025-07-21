@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosFlask = axios.create({
-  baseURL: 'https://server-flask-ypt5.onrender.com/api', // Flask ML backend
+  baseURL: 'https://server-flask-ypt5.onrender.com', // Flask ML backend
 });
 
 axiosFlask.interceptors.request.use(
