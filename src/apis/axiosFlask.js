@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const axiosFlask = axios.create({
   baseURL: 'https://server-flask-ypt5.onrender.com/', // Flask ML backend
+  withCredentials: true,
 });
 
 axiosFlask.interceptors.request.use(
